@@ -1,0 +1,26 @@
+{
+    "name": "nazmulpcc/laravel-material-preset",
+    "description": "Laravel Preset package built with http://materializecss.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazmul Alam",
+            "email": "nazmulpcc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "nazmulpcc\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nazmulpcc\\LaravelMaterialize\\MaterializeServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
